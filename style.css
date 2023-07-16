@@ -1,4 +1,42 @@
-*{
-    margin: 0; 
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
+
+.header {
+  height: 100vh;
+  background: rgba(255, 144, 14, 0.1);
+}
+.primary-h2 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+/* Navbar Start */
+.nav-container {
+  width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 20px 0px;
+}
+.logo h2 {
+  color: #131313;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #424242;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+/* Navbar End */
